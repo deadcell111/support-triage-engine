@@ -1,0 +1,137 @@
+{
+ "n_checks": 26,
+ "n_fail": 0,
+ "failed": [],
+ "checks": [
+  {
+   "check": "both files have 1,500,000 rows",
+   "pass": true,
+   "detail": "1,500,000 / 1,500,000"
+  },
+  {
+   "check": "ticket_id aligned row-for-row",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "all shared ticket attributes identical across files",
+   "pass": true,
+   "detail": "6/6 identical"
+  },
+  {
+   "check": "escalation flag identical across files",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "ground_truth carries the label, tickets does not",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "open + resolved reconciles to total",
+   "pass": true,
+   "detail": "152,745 open + 1,347,255 resolved"
+  },
+  {
+   "check": "tickets.csv has no AI Assistant in assigned_team",
+   "pass": true,
+   "detail": "5 teams"
+  },
+  {
+   "check": "guardrail list is 14 issue types",
+   "pass": true,
+   "detail": "14"
+  },
+  {
+   "check": "no duplicates in guardrail list",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "every guardrail type exists in the data",
+   "pass": true,
+   "detail": "[]"
+  },
+  {
+   "check": "guardrail never blocks a >=85% auto-solvable type",
+   "pass": true,
+   "detail": "[]"
+  },
+  {
+   "check": "pipeline round-trips through pickle",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "guardrail enabled in saved config",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "no leaky column in the decision feature set",
+   "pass": true,
+   "detail": "[]"
+  },
+  {
+   "check": "decision features include stage-1 confidence signals",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "process() runs on intake columns only \u2014 no label present",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "every ticket gets exactly one lane",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "lane fractions sum to 1",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "guardrail fires identically on predicted vs true issue type",
+   "pass": true,
+   "detail": "agreement 1.000000, missed 0"
+  },
+  {
+   "check": "no guardrail-blocked ticket reaches an AI lane",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "guardrail safety cost stays under 3% of solvable tickets",
+   "pass": true,
+   "detail": "7 sacrificed = 0.01%"
+  },
+  {
+   "check": "end-to-end gate AUC in the expected 0.87-0.90 band",
+   "pass": true,
+   "detail": "0.8799"
+  },
+  {
+   "check": "calibration gap under 0.05 in every decile",
+   "pass": true,
+   "detail": "max gap 0.0248"
+  },
+  {
+   "check": "auto-solve precision above 0.90",
+   "pass": true,
+   "detail": "0.9178"
+  },
+  {
+   "check": "auto-solve covers 25-40% of tickets",
+   "pass": true,
+   "detail": "33.3%"
+  },
+  {
+   "check": "neutralising complexity degrades AUC but does not collapse it",
+   "pass": true,
+   "detail": "0.8799 -> 0.8775"
+  }
+ ]
+}

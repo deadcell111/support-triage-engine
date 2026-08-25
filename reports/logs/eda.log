@@ -1,0 +1,50 @@
+wrote eda.json
+{
+ "total": 1500000,
+ "resolved": 1347255,
+ "open": 152745,
+ "span_start": "2022-01-01",
+ "span_end": "2024-12-30",
+ "years": 3.0,
+ "customers_est": 1500000,
+ "automation_rate": 47.7,
+ "escalation_rate": 30.5,
+ "sla_breach_rate": 10.4,
+ "mean_csat": 3.63,
+ "median_resolution_h": 1.82,
+ "median_frt_h": 0.45,
+ "reopen_rate": 11.4
+}
+paths: {
+ "ai_fail": {
+  "n": 410785,
+  "hours": 30.46,
+  "csat": 2.81,
+  "sla": 28.2,
+  "reopen": 10.7,
+  "frt": 7.29
+ },
+ "ai_ok": {
+  "n": 642710,
+  "hours": 1.71,
+  "csat": 4.21,
+  "sla": 0.1,
+  "reopen": 12.9,
+  "frt": 0.29
+ },
+ "human": {
+  "n": 293760,
+  "hours": 12.34,
+  "csat": 3.54,
+  "sla": 7.7,
+  "reopen": 9.0,
+  "frt": 2.86
+ }
+}
+counterfactual: {
+ "workers_without_ai": 44,
+ "workers_with_ai": 33,
+ "humans_with_ai": 32,
+ "teams_without_ai": 5,
+ "ai_handled": 715653
+}

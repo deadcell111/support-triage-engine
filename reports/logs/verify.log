@@ -1,0 +1,37 @@
+
+--- data integrity ---
+PASS - both files have 1,500,000 rows (1,500,000 / 1,500,000)
+PASS - ticket_id aligned row-for-row 
+PASS - all shared ticket attributes identical across files (6/6 identical)
+PASS - escalation flag identical across files 
+PASS - ground_truth carries the label, tickets does not 
+PASS - open + resolved reconciles to total (152,745 open + 1,347,255 resolved)
+PASS - tickets.csv has no AI Assistant in assigned_team (5 teams)
+
+--- guardrail ---
+PASS - guardrail list is 14 issue types (14)
+PASS - no duplicates in guardrail list 
+PASS - every guardrail type exists in the data 
+PASS - guardrail never blocks a >=85% auto-solvable type 
+
+--- pipeline ---
+PASS - pipeline round-trips through pickle 
+PASS - guardrail enabled in saved config 
+PASS - no leaky column in the decision feature set 
+PASS - decision features include stage-1 confidence signals 
+PASS - process() runs on intake columns only — no label present 
+PASS - every ticket gets exactly one lane 
+PASS - lane fractions sum to 1 
+PASS - guardrail fires identically on predicted vs true issue type (agreement 1.000000, missed 0)
+PASS - no guardrail-blocked ticket reaches an AI lane 
+PASS - guardrail safety cost stays under 3% of solvable tickets (7 sacrificed = 0.01%)
+
+--- model sanity ---
+PASS - end-to-end gate AUC in the expected 0.87-0.90 band (0.8799)
+PASS - calibration gap under 0.05 in every decile (max gap 0.0248)
+PASS - auto-solve precision above 0.90 (0.9178)
+PASS - auto-solve covers 25-40% of tickets (33.3%)
+PASS - neutralising complexity degrades AUC but does not collapse it (0.8799 -> 0.8775)
+
+============================================================
+26/26 passed

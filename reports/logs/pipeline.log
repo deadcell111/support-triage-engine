@@ -1,0 +1,56 @@
+loaded 1,347,255 labelled tickets  5s
+joined uncontaminated departments: 5 teams
+TRAIN-A 538,902 | TRAIN-B 538,902 | TEST 269,451
+
+============================================================== 
+STAGE 1  UNDERSTANDING   (text + CRM only)
+==============================================================
+/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/sklearn/linear_model/_stochastic_gradient.py:741: ConvergenceWarning: Maximum number of iteration reached before convergence. Consider increasing max_iter to improve the fit.
+  warnings.warn(
+/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/sklearn/linear_model/_stochastic_gradient.py:741: ConvergenceWarning: Maximum number of iteration reached before convergence. Consider increasing max_iter to improve the fit.
+  warnings.warn(
+/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/sklearn/linear_model/_stochastic_gradient.py:741: ConvergenceWarning: Maximum number of iteration reached before convergence. Consider increasing max_iter to improve the fit.
+  warnings.warn(
+  fitted 52s
+  intent       100 classes | acc 1.0000 | macro-F1 1.0000 | majority 0.0173
+  category      11 classes | acc 1.0000 | macro-F1 1.0000 | majority 0.0971
+  priority       4 classes | acc 0.4699 | macro-F1 0.4160 | majority 0.3356
+  complexity    10 levels | MAE 1.112 | exact 0.2602 | MAE always-median 2.094
+
+============================================================== 
+STAGE 2  DECISION   (fed stage-1 PREDICTIONS)
+==============================================================
+  fitted 82s
+  solvability  AUC 0.8799 | ACC 0.8010 | Brier 0.1287
+  sla risk     AUC 0.9217 | base rate 0.104
+
+  gate on TRUE stage-1 features     AUC 0.8858 | ACC 0.7988
+  gate on PREDICTED features        AUC 0.8799 | ACC 0.8010
+  cost of cascading stage-1 error   AUC -0.0059 | ACC +0.0022
+
+============================================================== 
+STAGE 3  ROUTING   (human-bound only)
+==============================================================
+  department   5 teams | acc 0.8085 | macro-F1 0.7561 | majority 0.3633
+
+============================================================== 
+END TO END
+==============================================================
+  lane split: {'ai_draft': '40.9%', 'auto_solve': '33.3%', 'guardrail': '13.7%', 'human': '12.2%'}
+  auto-solve precision 0.9178 on 33.3% of tickets
+  ai-draft band carries 40.9%, truly solvable within it 39.2%
+
+  guardrail blocked 36,820 tickets (13.7%)
+  of those, gate would have auto-solved 21 (0.01% of all tickets)
+  genuinely AI-solvable tickets sacrificed for safety: 7 (0.01% of all solvable)
+
+saved -> ticket_pipeline.pkl   total 144s
+
+sample decisions:
+ ticket_id                   issue_type_id  issue_complexity_score  p_ai_solvable      lane     department
+   1042017           billing_double_charge                       6       0.404671 guardrail        Billing
+    742825 authentication_suspicious_login                       6       0.010522     human Tier 1 Support
+    141404    integrations_api_deprecation                       6       0.408013  ai_draft    Engineering
+    949038        refunds_duplicate_refund                       6       0.010580 guardrail        Billing
+    741496               data_partial_sync                       6       0.362178  ai_draft    Engineering
+    379233               data_partial_sync                       6       0.349555  ai_draft    Engineering

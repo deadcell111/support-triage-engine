@@ -1,0 +1,777 @@
+{
+ "scale": {
+  "total": 1500000,
+  "resolved": 1347255,
+  "open": 152745,
+  "span_start": "2022-01-01",
+  "span_end": "2024-12-30",
+  "years": 3.0,
+  "customers_est": 1500000,
+  "automation_rate": 47.7,
+  "escalation_rate": 30.5,
+  "sla_breach_rate": 10.4,
+  "mean_csat": 3.63,
+  "median_resolution_h": 1.82,
+  "median_frt_h": 0.45,
+  "reopen_rate": 11.4
+ },
+ "monthly": [
+  {
+   "month": "2022-01",
+   "tickets": 28122
+  },
+  {
+   "month": "2022-02",
+   "tickets": 28630
+  },
+  {
+   "month": "2022-03",
+   "tickets": 33952
+  },
+  {
+   "month": "2022-04",
+   "tickets": 31972
+  },
+  {
+   "month": "2022-05",
+   "tickets": 32639
+  },
+  {
+   "month": "2022-06",
+   "tickets": 31146
+  },
+  {
+   "month": "2022-07",
+   "tickets": 28690
+  },
+  {
+   "month": "2022-08",
+   "tickets": 29586
+  },
+  {
+   "month": "2022-09",
+   "tickets": 28398
+  },
+  {
+   "month": "2022-10",
+   "tickets": 29313
+  },
+  {
+   "month": "2022-11",
+   "tickets": 32599
+  },
+  {
+   "month": "2022-12",
+   "tickets": 36726
+  },
+  {
+   "month": "2023-01",
+   "tickets": 40423
+  },
+  {
+   "month": "2023-02",
+   "tickets": 39315
+  },
+  {
+   "month": "2023-03",
+   "tickets": 46325
+  },
+  {
+   "month": "2023-04",
+   "tickets": 42012
+  },
+  {
+   "month": "2023-05",
+   "tickets": 45364
+  },
+  {
+   "month": "2023-06",
+   "tickets": 41382
+  },
+  {
+   "month": "2023-07",
+   "tickets": 38570
+  },
+  {
+   "month": "2023-08",
+   "tickets": 39181
+  },
+  {
+   "month": "2023-09",
+   "tickets": 46625
+  },
+  {
+   "month": "2023-10",
+   "tickets": 39534
+  },
+  {
+   "month": "2023-11",
+   "tickets": 42684
+  },
+  {
+   "month": "2023-12",
+   "tickets": 45188
+  },
+  {
+   "month": "2024-01",
+   "tickets": 52700
+  },
+  {
+   "month": "2024-02",
+   "tickets": 52271
+  },
+  {
+   "month": "2024-03",
+   "tickets": 55402
+  },
+  {
+   "month": "2024-04",
+   "tickets": 56567
+  },
+  {
+   "month": "2024-05",
+   "tickets": 56966
+  },
+  {
+   "month": "2024-06",
+   "tickets": 49104
+  },
+  {
+   "month": "2024-07",
+   "tickets": 50872
+  },
+  {
+   "month": "2024-08",
+   "tickets": 47175
+  },
+  {
+   "month": "2024-09",
+   "tickets": 44905
+  },
+  {
+   "month": "2024-10",
+   "tickets": 50391
+  },
+  {
+   "month": "2024-11",
+   "tickets": 50296
+  },
+  {
+   "month": "2024-12",
+   "tickets": 54975
+  }
+ ],
+ "monthly_automation": [
+  {
+   "month": "2022-01",
+   "rate": 47.59
+  },
+  {
+   "month": "2022-02",
+   "rate": 47.54
+  },
+  {
+   "month": "2022-03",
+   "rate": 47.62
+  },
+  {
+   "month": "2022-04",
+   "rate": 47.42
+  },
+  {
+   "month": "2022-05",
+   "rate": 47.81
+  },
+  {
+   "month": "2022-06",
+   "rate": 47.55
+  },
+  {
+   "month": "2022-07",
+   "rate": 48.08
+  },
+  {
+   "month": "2022-08",
+   "rate": 47.26
+  },
+  {
+   "month": "2022-09",
+   "rate": 47.62
+  },
+  {
+   "month": "2022-10",
+   "rate": 47.42
+  },
+  {
+   "month": "2022-11",
+   "rate": 47.63
+  },
+  {
+   "month": "2022-12",
+   "rate": 47.38
+  },
+  {
+   "month": "2023-01",
+   "rate": 47.91
+  },
+  {
+   "month": "2023-02",
+   "rate": 47.83
+  },
+  {
+   "month": "2023-03",
+   "rate": 47.6
+  },
+  {
+   "month": "2023-04",
+   "rate": 47.65
+  },
+  {
+   "month": "2023-05",
+   "rate": 47.94
+  },
+  {
+   "month": "2023-06",
+   "rate": 47.8
+  },
+  {
+   "month": "2023-07",
+   "rate": 47.87
+  },
+  {
+   "month": "2023-08",
+   "rate": 47.76
+  },
+  {
+   "month": "2023-09",
+   "rate": 47.43
+  },
+  {
+   "month": "2023-10",
+   "rate": 48.29
+  },
+  {
+   "month": "2023-11",
+   "rate": 47.97
+  },
+  {
+   "month": "2023-12",
+   "rate": 47.84
+  },
+  {
+   "month": "2024-01",
+   "rate": 47.5
+  },
+  {
+   "month": "2024-02",
+   "rate": 47.56
+  },
+  {
+   "month": "2024-03",
+   "rate": 47.78
+  },
+  {
+   "month": "2024-04",
+   "rate": 47.89
+  },
+  {
+   "month": "2024-05",
+   "rate": 47.5
+  },
+  {
+   "month": "2024-06",
+   "rate": 48.04
+  },
+  {
+   "month": "2024-07",
+   "rate": 47.51
+  },
+  {
+   "month": "2024-08",
+   "rate": 47.68
+  },
+  {
+   "month": "2024-09",
+   "rate": 47.52
+  },
+  {
+   "month": "2024-10",
+   "rate": 47.97
+  },
+  {
+   "month": "2024-11",
+   "rate": 47.46
+  },
+  {
+   "month": "2024-12",
+   "rate": 47.88
+  }
+ ],
+ "by_category": [
+  {
+   "name": "Account Management",
+   "n": 130157,
+   "auto": 63.3,
+   "csat": 3.84,
+   "hours": 13.1
+  },
+  {
+   "name": "Data Sync",
+   "n": 128625,
+   "auto": 46.9,
+   "csat": 3.63,
+   "hours": 11.8
+  },
+  {
+   "name": "Subscription",
+   "n": 128594,
+   "auto": 50.9,
+   "csat": 3.68,
+   "hours": 10.2
+  },
+  {
+   "name": "Onboarding & How-To",
+   "n": 128412,
+   "auto": 70.7,
+   "csat": 4.01,
+   "hours": 7.7
+  },
+  {
+   "name": "Billing",
+   "n": 128333,
+   "auto": 51.3,
+   "csat": 3.69,
+   "hours": 10.4
+  },
+  {
+   "name": "Authentication & Access",
+   "n": 123062,
+   "auto": 54.8,
+   "csat": 3.73,
+   "hours": 8.5
+  },
+  {
+   "name": "Integrations & API",
+   "n": 119441,
+   "auto": 55.0,
+   "csat": 3.8,
+   "hours": 6.2
+  },
+  {
+   "name": "Security",
+   "n": 118749,
+   "auto": 24.2,
+   "csat": 3.22,
+   "hours": 25.7
+  },
+  {
+   "name": "Bugs & Errors",
+   "n": 116121,
+   "auto": 32.2,
+   "csat": 3.42,
+   "hours": 15.5
+  },
+  {
+   "name": "Performance",
+   "n": 115859,
+   "auto": 42.3,
+   "csat": 3.64,
+   "hours": 8.2
+  },
+  {
+   "name": "Refunds",
+   "n": 109902,
+   "auto": 27.0,
+   "csat": 3.24,
+   "hours": 25.2
+  }
+ ],
+ "by_channel": [
+  {
+   "name": "Email",
+   "n": 457881,
+   "auto": 47.8,
+   "csat": 3.64,
+   "hours": 12.7
+  },
+  {
+   "name": "Chat",
+   "n": 404482,
+   "auto": 47.7,
+   "csat": 3.64,
+   "hours": 12.9
+  },
+  {
+   "name": "Self-Service",
+   "n": 202327,
+   "auto": 47.5,
+   "csat": 3.63,
+   "hours": 13.0
+  },
+  {
+   "name": "Phone",
+   "n": 188240,
+   "auto": 47.8,
+   "csat": 3.63,
+   "hours": 12.6
+  },
+  {
+   "name": "Social Media",
+   "n": 94325,
+   "auto": 47.8,
+   "csat": 3.63,
+   "hours": 12.7
+  }
+ ],
+ "by_region": [
+  {
+   "name": "North America",
+   "n": 457424,
+   "auto": 47.7,
+   "csat": 3.63,
+   "hours": 12.7
+  },
+  {
+   "name": "Europe",
+   "n": 377799,
+   "auto": 47.7,
+   "csat": 3.64,
+   "hours": 12.9
+  },
+  {
+   "name": "Asia",
+   "n": 242134,
+   "auto": 47.8,
+   "csat": 3.63,
+   "hours": 12.8
+  },
+  {
+   "name": "South America",
+   "n": 135259,
+   "auto": 47.6,
+   "csat": 3.63,
+   "hours": 12.8
+  },
+  {
+   "name": "Oceania",
+   "n": 67456,
+   "auto": 47.9,
+   "csat": 3.64,
+   "hours": 13.0
+  },
+  {
+   "name": "Africa",
+   "n": 67183,
+   "auto": 47.6,
+   "csat": 3.64,
+   "hours": 13.2
+  }
+ ],
+ "by_priority": [
+  {
+   "name": "Medium",
+   "n": 450483,
+   "auto": 48.2,
+   "csat": 3.69,
+   "hours": 15.7
+  },
+  {
+   "name": "Low",
+   "n": 377445,
+   "auto": 69.1,
+   "csat": 3.98,
+   "hours": 10.0
+  },
+  {
+   "name": "High",
+   "n": 356437,
+   "auto": 35.4,
+   "csat": 3.44,
+   "hours": 14.1
+  },
+  {
+   "name": "Urgent",
+   "n": 162890,
+   "auto": 23.9,
+   "csat": 3.11,
+   "hours": 8.5
+  }
+ ],
+ "by_segment": [
+  {
+   "name": "Individual",
+   "n": 337833,
+   "auto": 47.7,
+   "csat": 3.64,
+   "hours": 12.9
+  },
+  {
+   "name": "Corporate",
+   "n": 336918,
+   "auto": 47.7,
+   "csat": 3.63,
+   "hours": 12.9
+  },
+  {
+   "name": "Small Business",
+   "n": 336694,
+   "auto": 47.6,
+   "csat": 3.64,
+   "hours": 12.7
+  },
+  {
+   "name": "Enterprise",
+   "n": 335810,
+   "auto": 47.8,
+   "csat": 3.63,
+   "hours": 12.7
+  }
+ ],
+ "by_complexity": [
+  {
+   "level": 1,
+   "n": 179739,
+   "auto": 91.6
+  },
+  {
+   "level": 2,
+   "n": 133555,
+   "auto": 82.4
+  },
+  {
+   "level": 3,
+   "n": 151879,
+   "auto": 69.9
+  },
+  {
+   "level": 4,
+   "n": 164361,
+   "auto": 53.2
+  },
+  {
+   "level": 5,
+   "n": 175866,
+   "auto": 38.5
+  },
+  {
+   "level": 6,
+   "n": 181628,
+   "auto": 27.9
+  },
+  {
+   "level": 7,
+   "n": 157525,
+   "auto": 20.4
+  },
+  {
+   "level": 8,
+   "n": 109180,
+   "auto": 14.6
+  },
+  {
+   "level": 9,
+   "n": 59840,
+   "auto": 9.8
+  },
+  {
+   "level": 10,
+   "n": 33682,
+   "auto": 5.5
+  }
+ ],
+ "issue_type_extremes": {
+  "n_types": 100,
+  "lowest": [
+   {
+    "type": "security_gdpr_data_request",
+    "auto": 0.9,
+    "n": 11597
+   },
+   {
+    "type": "bugs_intermittent_error",
+    "auto": 0.9,
+    "n": 13330
+   },
+   {
+    "type": "subscription_cancel_without_request",
+    "auto": 0.9,
+    "n": 13731
+   },
+   {
+    "type": "billing_billing_dispute",
+    "auto": 0.9,
+    "n": 12084
+   },
+   {
+    "type": "billing_payment_deducted_failed",
+    "auto": 1.0,
+    "n": 13137
+   },
+   {
+    "type": "security_compromised_account",
+    "auto": 1.0,
+    "n": 14245
+   }
+  ],
+  "highest": [
+   {
+    "type": "account_update_profile",
+    "auto": 93.4,
+    "n": 13470
+   },
+   {
+    "type": "onboarding_how_to_export",
+    "auto": 93.5,
+    "n": 15046
+   },
+   {
+    "type": "billing_update_billing_email",
+    "auto": 93.5,
+    "n": 16544
+   },
+   {
+    "type": "refunds_refund_policy",
+    "auto": 93.6,
+    "n": 11533
+   },
+   {
+    "type": "integrations_api_docs_request",
+    "auto": 93.6,
+    "n": 15254
+   },
+   {
+    "type": "account_contact_update",
+    "auto": 93.9,
+    "n": 14672
+   }
+  ],
+  "n_pure": 0
+ },
+ "paths": {
+  "ai_fail": {
+   "n": 410785,
+   "hours": 30.46,
+   "csat": 2.81,
+   "sla": 28.2,
+   "reopen": 10.7,
+   "frt": 7.29
+  },
+  "ai_ok": {
+   "n": 642710,
+   "hours": 1.71,
+   "csat": 4.21,
+   "sla": 0.1,
+   "reopen": 12.9,
+   "frt": 0.29
+  },
+  "human": {
+   "n": 293760,
+   "hours": 12.34,
+   "csat": 3.54,
+   "sla": 7.7,
+   "reopen": 9.0,
+   "frt": 2.86
+  }
+ },
+ "penalty_by_complexity": [
+  {
+   "level": 1,
+   "human_h": 3.06,
+   "fail_h": 12.95,
+   "penalty_h": 9.89,
+   "ratio": 4.23,
+   "csat_human": 3.82,
+   "csat_fail": 3.29
+  },
+  {
+   "level": 2,
+   "human_h": 4.82,
+   "fail_h": 14.79,
+   "penalty_h": 9.96,
+   "ratio": 3.06,
+   "csat_human": 3.76,
+   "csat_fail": 3.25
+  },
+  {
+   "level": 3,
+   "human_h": 6.48,
+   "fail_h": 16.12,
+   "penalty_h": 9.64,
+   "ratio": 2.49,
+   "csat_human": 3.7,
+   "csat_fail": 3.17
+  },
+  {
+   "level": 4,
+   "human_h": 8.28,
+   "fail_h": 19.02,
+   "penalty_h": 10.74,
+   "ratio": 2.3,
+   "csat_human": 3.65,
+   "csat_fail": 3.09
+  },
+  {
+   "level": 5,
+   "human_h": 10.71,
+   "fail_h": 22.18,
+   "penalty_h": 11.46,
+   "ratio": 2.07,
+   "csat_human": 3.58,
+   "csat_fail": 2.99
+  },
+  {
+   "level": 6,
+   "human_h": 12.96,
+   "fail_h": 27.29,
+   "penalty_h": 14.33,
+   "ratio": 2.11,
+   "csat_human": 3.51,
+   "csat_fail": 2.87
+  },
+  {
+   "level": 7,
+   "human_h": 16.45,
+   "fail_h": 32.76,
+   "penalty_h": 16.32,
+   "ratio": 1.99,
+   "csat_human": 3.42,
+   "csat_fail": 2.76
+  },
+  {
+   "level": 8,
+   "human_h": 19.74,
+   "fail_h": 37.24,
+   "penalty_h": 17.49,
+   "ratio": 1.89,
+   "csat_human": 3.31,
+   "csat_fail": 2.65
+  },
+  {
+   "level": 9,
+   "human_h": 25.14,
+   "fail_h": 40.92,
+   "penalty_h": 15.78,
+   "ratio": 1.63,
+   "csat_human": 3.23,
+   "csat_fail": 2.56
+  },
+  {
+   "level": 10,
+   "human_h": 30.96,
+   "fail_h": 46.38,
+   "penalty_h": 15.43,
+   "ratio": 1.5,
+   "csat_human": 3.07,
+   "csat_fail": 2.45
+  }
+ ],
+ "penalty_weighted_h": 13.89,
+ "penalty_weighted_csat": -0.618,
+ "counterfactual": {
+  "workers_without_ai": 44,
+  "workers_with_ai": 33,
+  "humans_with_ai": 32,
+  "teams_without_ai": 5,
+  "ai_handled": 715653
+ }
+}

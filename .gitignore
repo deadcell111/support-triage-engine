@@ -1,0 +1,13 @@
+# Source data — 766MB and 758MB, far past GitHub's 100MB limit.
+# Regenerate with the generator, or use the committed 2,000-row samples.
+data/ground_truth.csv
+data/tickets.csv
+
+# Trained artefacts — rebuild with `python src/train_pipeline.py` (~2.5 min)
+models/*.pkl
+
+__pycache__/
+*.pyc
+.venv/
+.DS_Store
+.ipynb_checkpoints/

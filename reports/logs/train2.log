@@ -1,0 +1,29 @@
+loaded 1,500,000 rows in 5.2s
+labeled 1,347,255  (dropped 152,745 still-Open tickets)
+train 1,077,804  test 269,451
+trained in 69.3s  (29 trees, 20 features)
+
+=== held-out (269,451 tickets, threshold 0.5) ===
+  AUC      0.8912
+  Accuracy 0.8048
+  LogLoss  0.4215   Brier 0.1325
+              precision    recall  f1-score   support
+
+       human      0.745     0.954     0.836    140909
+ ai_solvable      0.927     0.641     0.758    128542
+
+    accuracy                          0.805    269451
+   macro avg      0.836     0.798     0.797    269451
+weighted avg      0.832     0.805     0.799    269451
+
+  routed to AI    33.0%  of which 92.7% correct
+  misrouted        2.4%  (sent to AI, needed a human)
+  missed          17.1%  (kept human, AI could have solved)
+
+saved -> ai_solvable_model.pkl
+ ticket_id  ai_solvable_prob  ai_solvable route
+   1042017          0.416364            0 Human
+    742825          0.117924            0 Human
+    141404          0.439406            0 Human
+    949038          0.117924            0 Human
+    741496          0.339393            0 Human
