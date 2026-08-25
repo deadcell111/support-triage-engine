@@ -11,3 +11,7 @@ __pycache__/
 .venv/
 .DS_Store
 .ipynb_checkpoints/
+
+# HF export — regenerate with src/export_hf.py
+hf_upload/*.parquet
+hf_upload/**/*.parquet
